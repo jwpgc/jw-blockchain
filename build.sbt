@@ -8,5 +8,6 @@ lazy val root = (project in file(".")).
       version      := "0.1.0-SNAPSHOT"
     )),
     name := "JW BLOCKCHAIN",
-    libraryDependencies += scalaTest % Test
+    libraryDependencies += scalaTest % Test,
+    libraryDependencies += "com.google.guava" % "guava" % "27.0.1-jre"
   )
